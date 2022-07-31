@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/micrservices_project1
     username: postgres
-    password: {cipher}cfb07ff3e812540de809682d693fa760e7da6c2f6e21298a884a2cd921f29bdd
+    password: '{cipher}cfb07ff3e812540de809682d693fa760e7da6c2f6e21298a884a2cd921f29bdd'
   jpa:
     hibernate:
       ddl-auto: update
